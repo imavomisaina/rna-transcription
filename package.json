@@ -1,0 +1,18 @@
+{
+  "name": "rna-transcription",
+  "version": "1.0.0",
+  "main": "rna-transcription.ts",
+  "repository": "https://github.com/imavomisaina/rna-transcription.git",
+  "author": "imavomisaina",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=spec/jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1",
+    "jasmine-console-reporter": "^3.0.2"
+  }
+}
