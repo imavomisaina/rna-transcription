@@ -25,19 +25,19 @@ describe('Transcriptor', () => {
   })
 
   it('correctly handles invalid input', () => {
-    expect(() => transcriptor.toRna('U')).toThrowError(
+    expect(() => transcriptor.toRna('U')).toThrow(
       'Invalid input DNA.'
     )
   })
 
   it('correctly handles completely invalid input', () => {
-    expect(() => transcriptor.toRna('XXX')).toThrowError(
+    expect(() => transcriptor.toRna('XXX')).toThrow(
       'Invalid input DNA.'
     )
   })
 
   it('correctly handles partially invalid input', () => {
-    expect(() => transcriptor.toRna('ACGTXXXCTTAA')).toThrowError(
+    expect(() => transcriptor.toRna('ACGTXXXCTTAA')).toThrow(
       'Invalid input DNA.'
     )
   })
